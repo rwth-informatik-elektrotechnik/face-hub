@@ -30,47 +30,47 @@ Ziel: Alle bereiten ihre eigene Arbeitsumgebung vor und lernen ihre Tools kennen
       Wie speichert man Bilddaten und Metadaten? JSON, XML, kleine DB-Optionen
 
 
-Woche 2:
+  Woche 2:
   
-  Person A:
+    Person A:
   
-    OpenCV Installation & erstes Bild laden
+      OpenCV Installation & erstes Bild laden
  
-  Person B:
+    Person B:
   
-    Dlib Installation & Beispielcode zum Laden von Bildern	
+      Dlib Installation & Beispielcode zum Laden von Bildern	
   
-  Person C:
+    Person C:
   
-    C++ GUI-Optionen recherchieren (z. B. Qt, OpenCV UI)
+      C++ GUI-Optionen recherchieren (z. B. Qt, OpenCV UI)
 
-Woche 3:
+  Woche 3:
 
-  Person A:
+    Person A:
   
-    Haarcascade Detection in C++ implementieren	
+      Haarcascade Detection in C++ implementieren	
   
-  Person B:
+    Person B:
   
-    LBPH und Dlib face recognition Beispielcode testen	
+      LBPH und Dlib face recognition Beispielcode testen	
   
-  Person C:
+    Person C:
   
-    Erstes Interface-Layout skizzieren, Konsoleninterface programmieren
+      Erstes Interface-Layout skizzieren, Konsoleninterface programmieren
 
-Woche 4:
+  Woche 4:
 
-  Person A:
+    Person A:
   
-    Kamera einbinden, Echtzeit-Face Detection testen	
+      Kamera einbinden, Echtzeit-Face Detection testen	
   
-  Person B:
+    Person B:
   
-    Erste Gesichter erkennen lassen (auch mit Testbildern)
+      Erste Gesichter erkennen lassen (auch mit Testbildern)
   
-  Person C:
+    Person C:
   
-    Datenspeicherung vorbereiten (z. B. Bilder + Namen speichern)
+      Datenspeicherung vorbereiten (z. B. Bilder + Namen speichern)
 
 
 📅 Monat 2: Modulentwicklung (eigenständig)
