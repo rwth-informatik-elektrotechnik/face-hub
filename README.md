@@ -12,14 +12,23 @@ Person B	Gesichtswiedererkennung (Face Recognition) – Dlib Deep Learning
 Person C	Datenverwaltung & Benutzeroberfläche (UI + Speicherung)
 
 📅 Monat 1: Grundlagen & Einzeln arbeiten (Theorie + Setup)
+
 Ziel: Alle bereiten ihre eigene Arbeitsumgebung vor und lernen ihre Tools kennen.
+  
   Woche 1:
+   
     Person A:
+    
       Was ist Face Detection? Verschiedene Algorithmen (Haar, HOG, CNN) recherchieren	
+    
     Person B:
+    
       Was ist Face Recognition? LBPH, Dlib, Deep Learning vergleichen	
+    
     Person C:
+    
       Wie speichert man Bilddaten und Metadaten? JSON, XML, kleine DB-Optionen
+
 Woche 2:
   Person A:
     OpenCV Installation & erstes Bild laden
