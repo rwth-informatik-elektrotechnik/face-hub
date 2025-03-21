@@ -1,15 +1,21 @@
 # face-hub
 Face Recognition/Detection
 
-Projekt: Gesichtserkennungssystem mit C++
-Technologien: C++, OpenCV, Dlib
-Teamgröße: 3 Personen
-Dauer: 3 Monate
-Ziel: Ein System entwickeln, das Gesichter erkennen, speichern und unterscheiden kann (Detection + Recognition).
+  **Projekt:** Gesichtserkennungssystem mit C++
+  
+  **Technologien:** C++, OpenCV, Dlib
+  
+  **Teamgröße:** 3 Personen
+  
+  **Dauer:** 3 Monate
 
-Person A	Gesichtserkennung (Face Detection) – OpenCV + Dlib
-Person B	Gesichtswiedererkennung (Face Recognition) – Dlib Deep Learning
-Person C	Datenverwaltung & Benutzeroberfläche (UI + Speicherung)
+**Ziel:** Ein System entwickeln, das Gesichter erkennen, speichern und unterscheiden kann (Detection + Recognition).
+
+Person A-> Gesichtserkennung (Face Detection) – OpenCV + Dlib
+
+Person B->	Gesichtswiedererkennung (Face Recognition) – Dlib Deep Learning
+
+Person C->	Datenverwaltung & Benutzeroberfläche (UI + Speicherung)
 
 📅 Monat 1: Grundlagen & Einzeln arbeiten (Theorie + Setup)
 
