@@ -1,165 +1,53 @@
-# face-hub
-Face Recognition/Detection
+Final Feature List
 
-  **Projekt:** Gesichtserkennungssystem mit C++
-  
-  **Technologien:** C++, OpenCV, Dlib
-  
-  **Teamgröße:** 3 Personen
-  
-  **Dauer:** 3 Monate
+1. Face Detection & Recognition
+Detects and recognizes faces.
 
-**Ziel:** Ein System entwickeln, das Gesichter erkennen, speichern und unterscheiden kann (Detection + Recognition).
+Registers new users or matches with existing ones.
 
-Person A-> Gesichtserkennung (Face Detection) – OpenCV + Dlib
+Lightweight and locally running (no cloud dependency).
 
-Person B->	Gesichtswiedererkennung (Face Recognition) – Dlib Deep Learning
+2. Multi-Face Tracking & Identification
+Detects and tracks multiple faces simultaneously.
 
-Person C->	Datenverwaltung & Benutzeroberfläche (UI + Speicherung)
+Assigns a unique ID to each person.
 
-📅 Monat 1: Grundlagen & Einzeln arbeiten (Theorie + Setup)
+Displays real-time overlays on the camera feed (e.g., bounding boxes and names).
 
-Ziel: Alle bereiten ihre eigene Arbeitsumgebung vor und lernen ihre Tools kennen.
-  
-  Woche 1:
-   
-    Person A:
-    
-      Was ist Face Detection? Verschiedene Algorithmen (Haar, HOG, CNN) recherchieren	
-    
-    Person B:
-    
-      Was ist Face Recognition? LBPH, Dlib, Deep Learning vergleichen	
-    
-    Person C:
-    
-      Wie speichert man Bilddaten und Metadaten? JSON, XML, kleine DB-Optionen
+3. Anti-Spoofing
+Detects liveness (e.g., eye blinking, facial movement, reflections).
 
+Prevents fake logins using photos or videos.
 
-  Woche 2:
-  
-    Person A:
-  
-      OpenCV Installation & erstes Bild laden
- 
-    Person B:
-  
-      Dlib Installation & Beispielcode zum Laden von Bildern	
-  
-    Person C:
-  
-      C++ GUI-Optionen recherchieren (z. B. Qt, OpenCV UI)
+Basic security rules: e.g., limited number of failed attempts.
 
-  Woche 3:
+4. User Profiling, Reporting & Personalized Interaction
+(Combines the previous 4th and 5th features into a single coherent system.)
 
-    Person A:
-  
-      Haarcascade Detection in C++ implementieren	
-  
-    Person B:
-  
-      LBPH und Dlib face recognition Beispielcode testen	
-  
-    Person C:
-  
-      Erstes Interface-Layout skizzieren, Konsoleninterface programmieren
+Stores individual user data (e.g., last visit, visit frequency).
 
-  Woche 4:
+Shows personalized messages like “Welcome, Barış” or reminds about events.
 
-    Person A:
-  
-      Kamera einbinden, Echtzeit-Face Detection testen	
-  
-    Person B:
-  
-      Erste Gesichter erkennen lassen (auch mit Testbildern)
-  
-    Person C:
-  
-      Datenspeicherung vorbereiten (z. B. Bilder + Namen speichern)
+Uses historical data to generate interaction suggestions or alerts.
 
+Background data logging for activity tracking and reporting.
 
-📅 Monat 2: Modulentwicklung (eigenständig)
+These user profiles feed into more relevant and personalized interactions.
 
-Ziel: Jeder entwickelt ein vollständiges Modul unabhängig vom anderen.
-  
-  Woche 5:
-   
-    Person A:
-    
-      Haarcascade vs. Dlib HOG vergleichen, eigenes Detection-Modul bauen		
-    
-    Person B:
-    
-      Gesichtsembeddings erzeugen (128-D Feature Vektor mit Dlib)		
-    
-    Person C:
-    
-      Erste Version: Gesichtsinfos lokal speichern & laden
-  Woche 6:
-  
-    Person A:
-      
-      Gesichter tracken (z. B. mit Rechteck verfolgen)	
-  
-  
-    Person B:
-   
-      Eigene Bilddatenbank anlegen und Trainieren (Eigenes Dataset)	
-  
-    Person C:
-      Eingabemaske für neue Nutzer (Gesicht + Name) erstellen
-  
-  Woche 7:
-    
-    Person A:
-    
-    Fehlerbehandlung & stabile Gesichtserkennung implementieren	
-  
-    Person B:
-    
-      Vergleich zweier Gesichter (Ähnlichkeitsvergleich)
-    
-    Person C:
-      
-      Datensatz-Verwaltung + Nutzerverwaltung
+(Optional: Export logs to formats like .csv or .json.)
 
-  Woche 8:
-  
-    Person A:
-    
-      Modul mit sauberen Schnittstellen abschließen	
-    
-    Person B:
-      
-      Modul fertigstellen, JSON-Export von Gesichtsdaten	
-    
-    Person C:
-    
-      UI mit Datenmodul verbinden, Bild anzeigen können
+5. User Interface (UI) & Interaction Display
+Real-time feedback over camera feed (face bounding boxes, names, messages).
 
-📅 Monat 3-4: Integration, Optimierung, Abschluss
-Ziel: Module zusammenfügen, testen, präsentieren.
+Visual notifications or alerts on screen.
 
-  Woche 9	  Schnittstellen festlegen: Wie übergibt Detection Modul Daten an Recognition Modul?
+Simple and user-friendly layout.
 
-  Woche 10	Alle Module zusammenführen (Detection → Recognition → UI)
+(Advanced: Optional integration with a physical LED display or text-to-speech system.)
 
-  Woche 11	Testen mit realen Bildern / Kamera. Genauigkeit und Geschwindigkeit messen.
+6. User Settings Panel
+Recognized individuals can be added as profiles in the system.
 
-  Woche 12	Optimierungen, README schreiben, GitHub Repository fertigstellen, optional Video-Demo oder Präsentation vorbereiten.
+Personal settings per user: welcome messages, color schemes, sound preferences, etc.
 
-
-✅ Endziel nach 3 Monaten
-
-Ein C++-basiertes Gesichtserkennungssystem mit:
-
-Echtzeitkameraunterstützung
-
-Gesichtserkennung und -unterscheidung
-
-Benutzeroberfläche zur Verwaltung von Gesichtern
-
-Dokumentierter, verständlicher Code auf GitHub
-
-Lauffähige Demo mit Testdaten
+Functions like an admin panel for customization and system management.
